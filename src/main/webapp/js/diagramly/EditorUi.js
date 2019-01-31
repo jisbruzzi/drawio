@@ -5895,7 +5895,7 @@
 			   		
 			   		try
 			   		{
-			   			this.saveCanvas(canvas, (editable) ? this.getFileData(true, null,
+			   			this.saveCanvas(canvas, (true) ? this.getFileData(true, null,
 			   				null, null, ignoreSelection, currentPage) : null, format);
 			   		}
 			   		catch (e)
